@@ -9,4 +9,8 @@ public class PlayerCharacter {
         return a=0;
 
     }
+    public static int getY(int a) {
+        return a=0;
+
+    }
 }

@@ -15,4 +15,13 @@ class PlayerCharacterTest {
         //then
         assertEquals(expected, actual);
     }
+    @Test
+    void getY_postionShouldBe0_whenStart5() {
+        //Given
+        int expected = 0;
+        //when
+        int actual = PlayerCharacter.getY(5);
+        //then
+        assertEquals(expected, actual);
+    }
 }
